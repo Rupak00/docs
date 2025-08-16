@@ -1,0 +1,245 @@
+/*Next Button*/
+
+  @media (max-width: 768px) {
+    #NextButton {
+      width: 20% !important;
+      min-width: unset !important;
+    }
+  }
+.RecaptchaV3Notice{
+display:none;
+}
+
+.LanguageSelectorContainer{
+display:none;
+}
+
+
+/* Multiple questions */
+
+.Skin label.MultipleAnswer, .Skin label.SingleAnswer {
+    background-color: #FFFFFF; /* Default state background */
+    color: #3D40CC; 
+    font-family: Roboto, sans-serif;
+    outline: 1pt solid #C1CCE8; /* Default state outline */
+}
+
+.Skin label.MultipleAnswer:hover, .Skin label.SingleAnswer:hover {
+    background-color: #F5F0FF; /* Hover state background */
+    outline: 1pt solid #3D40CC; /* Hover state outline */
+}
+
+.Skin label.MultipleAnswer.active, .Skin label.SingleAnswer.active {
+    background-color: #5B63E4; /* Active state background */
+    outline: 1pt solid #3D40CC; /* Active state outline */
+}
+
+.Skin .QuestionBody div {
+    color: #3D40CC; 
+}
+
+.Skin .MAVR label, .Skin .SAVR label {
+    color: #3D40CC; 
+    font-family: Roboto, sans-serif;
+}
+
+.Skin .QuestionText, .Skin .ChoiceStructure .QuestionText {
+    font-family: Roboto, sans-serif;
+    color: #10105C;
+}
+
+.Skin .QuestionBody {
+    color: #3D40CC;
+}
+
+
+
+/* Primary actions / Buttons */
+
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px; 
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    transition: background .3s;
+    background-color: #5b63e4;
+}
+
+@media (max-width: 768px) {
+    .Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+        width: 100%;
+    }
+}
+
+
+/* Input field */
+
+.Skin .MC .TextEntryBox, .Skin .TE .ESTB .InputText, .Skin .TE .FORM .InputText, .Skin .TE .FollowUp .InputText, .Skin .TE .ML .InputText, .Skin .TE .PW .InputText, .Skin .TE .SL .InputText, .Skin .TE textarea, .Skin input.TextEntryBox, .Skin input[type=password], .Skin input[type=search], .Skin input[type=text], .Skin textarea {
+    background-color: #F7F9FC; 
+    border: 2px solid #7F8EBA; 
+    border-radius: 6px; 
+    padding: 10px; 
+    font-family: Roboto, sans-serif;
+}
+
+.Skin .MC .TextEntryBox:focus, .Skin .TE .ESTB .InputText:focus, .Skin .TE .FORM .InputText:focus, .Skin .TE .FollowUp .InputText:focus, .Skin .TE .ML .InputText:focus, .Skin .TE .PW .InputText:focus, .Skin .TE .SL .InputText:focus, .Skin .TE textarea:focus, .Skin input.TextEntryBox:focus, .Skin input[type=password]:focus, .Skin input[type=search]:focus, .Skin input[type=text]:focus, .Skin textarea:focus {
+    background-color: transparent; 
+    border: 2pt solid #3D40CC; 
+    border-radius: 6px; 
+    color: #2E3C69; 
+    font-family: Roboto, sans-serif;
+}
+
+.Skin .MC .TextEntryBox:hover, .Skin .TE .ESTB .InputText:hover, .Skin .TE .FORM .InputText:hover, .Skin .TE .FollowUp .InputText:hover, .Skin .TE .ML .InputText:hover, .Skin .TE .PW .InputText:hover, .Skin .TE .SL .InputText:hover, .Skin .TE textarea:hover, .Skin input.TextEntryBox:hover, .Skin input[type=password]:hover, .Skin input[type=search]:hover, .Skin input[type=text]:hover, .Skin textarea:hover {
+    background-color: #F7F9FC; 
+    border: 2pt solid #6070A1;
+    border-radius: 6px; 
+    color: #2E3C69; 
+    font-family: Roboto, sans-serif;
+}
+
+.Skin button, .Skin input, .Skin select, .Skin textarea {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #6070A1;
+}
+
+
+/* Matrix table */
+.Skin .QuestionBody {
+    color: #2E3C69;
+}
+
+.Skin {
+    font-family: Roboto, sans-serif;
+}
+
+.Skin label.q-checkbox, .Skin label.q-radio {
+    border: 1px solid #788CC5; 
+    width: 1.1em;
+    height: 1.1em;
+    display: inline-block;
+    background: 0 0;
+    box-shadow: none; /* Removed shadow */
+}
+
+.Skin label.q-radio.active {
+    border: 2pt solid #FFFFFF; 
+    background-color: #3D40CC; 
+    box-shadow: none; /* Removed shadow */
+}
+
+.Skin label.q-checkbox.q-focused, .Skin label.q-radio.q-focused {
+    outline: 2px solid #3D40CC; /* Updated outline color and width */
+    box-shadow: none; /* Removed shadow */
+}
+
+.Skin label.q-radio.q-focused.q-checked {
+    -webkit-box-shadow: none; /* Removed shadow */
+    -moz-box-shadow: none; /* Removed shadow */
+    box-shadow: none; /* Removed shadow */
+}
+
+/* New styles for the checked radio button */
+.Skin label.q-radio.q-checked {
+    border: 2px solid white; /* Outer stroke */
+    outline: 2px solid #5b63e4; /* Outer outline color */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    .JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-up,
+    .JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-down {
+        background-size: 34px;
+    }
+
+    .JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-up {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABJCAYAAACesWDiAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALRSURBVHgB7di/bxJhGAfw5+UwHXTgT6jEBbvg5gjhaBi5oomb5S9oXYx0ERchLk03N3Uz0QbGGkrArRu4iIuVP6FNNLGBu9f3gdZc7w6F5n6Q5vtJGPrce+/bfnvc894RAQAAAAAAAAAAAAAAAAAAXB/6g1qGP7REYrQk9FK9QZI6/MmXam9oSWi0BPSN+i4JuWkrpe+k8onvg8NPFLHIA9I3as9J0DNnXQq6n0zpdDxof6YIRRpQvlTfUuHUZw4QlLl9Nzf8MWh/oYgIikj+4au0tMze/0eKExGLZVsfnvYpApHcpAvF2ipZZsNZV/+tIX8uV2VCWlan8EidE4HQA+JwTI06kmjVXudgtBuU1UzKeoVkjiiSkEINqFisJkxNNpzh8NeIwzl4XxkeNCtDimkG1+wj+BxzJBs8B4Uo1IB+aSu7kkSaXL+EVeZwLn7m+41UNec4PpfnoBCF1sXO2/m264CgF639ndfOsupc35JruVM1oOA4lA6z/YcS0Hk4VdcBFc7hx0p11nnHX9tHyTWdO23GcV4mmcqdqpCOKGCBt/n10suiRcKrY71r7Vc255lDPXq8Vfegx+SeJKsC7lKAAr0HcceyKOZ6rhIk+zfNs+155xlNxgr3PkiKBu+nKECBBXTRzrlF2+vTdi6MZrN6Mu9cXTU2bkrDq/3zfirI9h/IV4xbseo2vVl7HXvHWgSHPtZEzyt0dUXeWyT0eQVyBf3UVjz2OryaZlw1HMZ7JH7scNZ5LV6TAuB7QJNXF86uw4R84sfzFM8hJJU9DmXWp2v7ytc2P+vVxbSd79TJJ6q9973a//QVib/t398rKCaKzpL6K/b+tde5Kp5TfbX2XOsJsUU+8jcgKS/fJIXoqr3O3O18Ue3p3F17TQoxJB/5GlDcpPLfVqzCuTX+bVDAxuaZoa7c5mRJtXY8LssEAAAAAAAAAAAAAAAAAAv5A327AmOy5wlpAAAAAElFTkSuQmCC');
+    }
+
+    .JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-down {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABJCAYAAACesWDiAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALsSURBVHgB7di/TxNhGAfw570XkMQF/4NSHQSWsjG26dUwFqqJm2FzQxZDWagLbVzEzc3VREg7YigBNzbrIpPQ/0BI0Gjo9fV5a5twP6oC73u3fD8L1/e4X9+7vs/TIwIAAAAAAAAAAAAAAAAAALgRQYYVi5WJH3Is64yK1s67cptiYPOYDhn0oLRRPJe3vnVJ1L0L2p9/XE2RZfPFaupcjp/oY3Yu6MRd3HhGBhkNqCuc9cGyIkrZDkmH40na56NNDMaEEMtkkNGASKlT38deSKquvwJkmN6nDkcfw79GnJJBZgMS9CI4pEhk+CvwlgzT+wyHwxxniQySZNDxl712eiZ/xknNB1bdvzdVmPh61PxABriL1XW+GU9DK4RaaW6tNsggowFpHNJhesbV1TF7eVwJmktPuXR8tPeRbqAfTiW0gp/e5tZajQwzHpDGIR3cnXYneTHjWyEoOzmdb58c7X2ma8iXNp7wJLwZHOe78bq5XV4lC4z3QZe5pSpXGP+TpCdR4Ti53ffPW3QFhUcvM6rb9VWs3t5ItXa312bJErOTdEDH+7XAd6DtH+UL7Hr1q5R/Xc71NuFwqC1HxQJZZDWgg0blVHqUC4Y06JH+p/wPep1gxfoTDuVsd+tWA9J2GnwBjlwI9if6gr/Lsf1/be9JVY/sdXifcfyUsR6QpucbodRKcFz3SIVSdWiP5C7WXun/CY471F266hx2XVaqWBQu762o8s8yUeW/X87DlYnLOU/KbygmsQWk6fI/Oe3e4ZTmfCu4/Ken8mcc0qH+WCjVlnks3NP0ep1yhWJktcwP45ZquiIVKXw2ud5fRRFzk2g0t1etVqwoI5SAjvdzaUSOpzgJ//yiRL2/4BvWFes2b0MJSOQJ0oaV76C4yvlfjp8cHVJHik/BBnAg6XD655As92E1Gz3n8Mk5cjaucj5MrFUsytBXJBZeXVxH4gFp/lck3CULVeZXF5sEAAAAAAAAAAAAAAAAALH4DTQPDcOkkqNaAAAAAElFTkSuQmCC');
+    }
+}
+/*Hide Plug*/
+
+#Plug{
+display:none !important;
+}
+
+.JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-up,
+.JFEScope .Skin .q-matrix .dropdown-arrow .dropdown-down {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABJCAYAAACesWDiAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARn
+
+.JFEScope .Skin .q-matrix.mobile .ChoiceRow {
+    border-bottom: 1px solid #C1CCE8;
+}
+
+/* Rank order */
+
+.Skin .RO .DND ul li {
+    padding: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 8px; 
+}
+
+
+/* Progress bar */
+.progress-bar-container {
+    border-radius: 10px; /* Adjust the value as needed */
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #f5f5f5;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 10px; /* Match the container's border-radius */
+}
+
+
+/* Title */
+
+.Skin .QuestionText, .Skin .ChoiceStructure .QuestionText {
+    font-family: Roboto Slab, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #10105C;
+}
+
+
+/* Dialog */
+
+.QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_bg6UezyQtd2ZOrY_content-medium {
+padding-top: 12px;
+padding-bottom: 32px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_bg6UezyQtd2ZOrY_button {
+box-sizing: border-box;
+font-weight: 600;
+padding: 10px 25px;
+cursor: pointer;
+width: 100%;
+border-width: 2px;
+max-width: 320px;
+border-style: solid;
+}
